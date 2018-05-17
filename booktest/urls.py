@@ -5,5 +5,5 @@ from . import views
 
 urlpatterns = [
     url(r'^$',views.index),
-    url(r'^(\d+)/$',views.detail),
+    url(r'^book/(\d+)/$',views.detail,name='detail'),
 ]
